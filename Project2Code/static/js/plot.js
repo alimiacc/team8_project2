@@ -21,7 +21,7 @@
     var layout = {
         title: 'Custom Range Chart',
         xaxis: {
-            range: ['2015-07-10', '2016-07-10'],
+            range: ['2010-07-10', '2016-07-10'],
             type: 'date'
         },
         yaxis: {
@@ -30,7 +30,7 @@
         }
     };
         
-    Plotly.plot('plot', data, layout);
+    Plotly.plot('plotdiv', data, layout);
 
 //   Plotly.newPlot("plot", data);
 });
