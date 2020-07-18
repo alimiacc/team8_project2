@@ -29,7 +29,6 @@ color: white;
 
 <body>
  
-
   <div class="container">
     <div class="row">
       <div class="jumbotron" style="background-image: url(https://images.pexels.com/photos/87236/pexels-photo-87236.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); background-size: 100%;">
@@ -39,10 +38,10 @@ color: white;
       </div>
     </div>
     <div class="summary">
-      As global communities respond to COVID-19, we've heard from public health officials that the same type of aggregated, anonymized insights we use in products such as Google Maps could be helpful as they make critical decisions to combat COVID-19.
+
+    After the outbreak of COVID-19 in the US, a huge downfall in demand for petroleum products has been witnessed which results in a downfall in oil prices.  Due to lockdown and travel restrictions for the aviation industry to other transportation services such as buses, cars, people are staying at home and the demand for oil has also been decreased. Furthermore, various onshore oil companies storage are full, reducing workers for COVID safety, most of them are closing their companies and are bankrupt because of the low demand for oil.<br><br>
     
-        These Community Mobility Reports aim to provide insights into what has changed in response to policies aimed at combating COVID-19. The reports chart movement trends over time by geography, across different categories of places such as retail and recreation, groceries and pharmacies, parks, transit stations, workplaces, and residential.
-      </div>
+    </div>
      
       <div class="showcase__section" id="bubble">
         <div class="spacer --small"></div>
@@ -50,19 +49,20 @@ color: white;
           <div class="bubbleplot" data-num="0">
             <div class="plot" id="plotdiv"></div>
             <div class="control-row">
-              Charts: <select class="countrydata">
+              Charts: <select class="countrydata" id="chartdropdown">
+                <option value="0">US Weekly Oil Production</option>
+                <option value="1">US Weekly Oil Consumption</option>
+                <option value="2">US Weekly UNL Gasoline Prices</option>
+                <option value="3">US Weekly Diesel Prices</option>
+                <option value="4">Cushing WTI Daily Spot Prices</option>
               </select>
-  
- >
+
           </div>
         </div>
-       
        
     </div>
   </div>
     
-
-
   </div><!-- End of Container -->
 
 </div>
@@ -74,30 +74,12 @@ color: white;
   <script src="./static/js/plot.js"></script>
   <!--<script src="./static/js/fireworks.js"></script>-->
 
-
   <!-- Footer -->
   <footer class="page-footer font-small footer-dark">
     <div class="footer-copyright text-center py-3">© Copyright Team-8 Coding Bootcamp 2020
     </div>      
 </footer>
-  
+
 </body>
 
 </html>
-
-<head>
-  <!--Plotly.js-->
-          <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  </head>
-          <body>
- 
-        </div>
-      </div>
-    </div>
-  </div>
-        
-  <script>
-          /* JAVASCRIPT CODE GOES HERE */
-          </script>
-          </body>
-  
